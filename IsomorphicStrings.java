@@ -4,7 +4,7 @@ public class IsomorphicStrings {
     
     public static boolean isIsomorphic(String s, String t) {
      
-         int map1[]=new int[200];
+        int map1[]=new int[200];
         int map2[]=new int[200];
 
         if(s.length()!=t.length())

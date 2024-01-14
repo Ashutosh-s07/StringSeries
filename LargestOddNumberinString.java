@@ -3,7 +3,6 @@ public class LargestOddNumberinString {
     public static String largestOddNumber(String num) {
         int  n = num.length();
         int oddInd = -1;
-        String str = "";
         for( int i=n-1;i>=0;i--){
             if(num.charAt(i)%2!=0){
                 oddInd = Math.max(i, oddInd);
