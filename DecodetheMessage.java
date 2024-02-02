@@ -46,7 +46,7 @@ public class DecodetheMessage {
         // }
         // System.out.println(hmp);
         // System.out.println(hmp);
-        return result;
+        // return result;
     }
     public static void main(String[] args) {
         String key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv";
