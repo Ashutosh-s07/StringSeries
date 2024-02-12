@@ -10,6 +10,7 @@ public class IsomorphicStrings {
         if(s.length()!=t.length())
             return false;
 
+        
 
         for(int i=0;i<s.length();i++)
         {
